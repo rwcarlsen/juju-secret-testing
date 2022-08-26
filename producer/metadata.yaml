@@ -1,0 +1,17 @@
+# Copyright 2022 Robert Carlsen
+# See LICENSE file for licensing details.
+
+# For a complete list of supported options, see:
+# https://juju.is/docs/sdk/metadata-reference
+name: producer
+display-name: |
+  nice-display-name
+description: |
+  A nice fancy description.
+summary: |
+  A nice summary.
+
+provides:
+  secret:
+    interface: secret-passer
+
